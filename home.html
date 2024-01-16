@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nshop - home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--nav bar - start-->
+
+    <div class="nav">
+        <nav>
+            <div class="logo">
+                <a href="#">Nshop</a>
+            </div>
+            <ul>
+                <li><a href="#">inicio</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <div class="button">
+                <a href="#" class="button">Login</a>
+            </div>
+        </nav>
+    </div>
+
+    <!--nav bar - end-->
+
+    <!--home - start-->
+    <div class="carousel-container">
+        <button class="carousel-btn" onclick="changeSlide(-1)">></button>
+        <div class="carousel">
+            <div class="slide"><img src="img/img1.jpg" alt="Imagem 1"></div>
+            <div class="slide"><img src="img/img2.jpg" alt="Imagem 2"></div>
+            <div class="slide"><img src="img/img3.jpg" alt="Imagem 3"></div>
+            <div class="slide"><img src="img/img4.jpg" alt="Imagem 4"></div>
+            <div class="slide"><img src="img/img5.jpg" alt="Imagem 5"></div>
+        </div>
+        <button class="carousel-btn" onclick="changeSlide(1)"><</button>
+    </div>
+    
+    <div class="progress-bar">
+        <div class="progress-item"></div>
+        <div class="progress-item"></div>
+        <div class="progress-item"></div>
+        <div class="progress-item"></div>
+        <div class="progress-item"></div>
+    </div>
+    <!--home - end-->
+
+    <script src="script.js"></script>
+</body>
+</html>
